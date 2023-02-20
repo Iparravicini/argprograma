@@ -1,0 +1,91 @@
+.pie{
+    margin: 2rem;
+}
+
+.pie__container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pie__container--item1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.pie__container--item1 h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.pie__container--item1 p{
+    font-size: 1.0rem;
+    font-weight: 500;
+    margin: 1rem auto;
+}
+
+.pie__container--item2{
+    margin: 1.5rem;
+}
+
+
+.form input{
+    display: block;
+    font-size: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    color: #000000;
+    margin: 1rem auto;
+    padding: 0.5rem;
+}
+
+.form textarea{
+    width: 100%;
+    color: #000000;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid #000000;
+    margin-top: 0.5rem auto 1rem auto;
+    padding: 0.5rem;
+    max-width: calc(width - 30%);
+}
+
+#boton__form{
+    border: none;
+    background: linear-gradient(to right, rgb(50, 51, 54), rgb(9, 9, 9));
+    color: #fff;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .pie__container{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .pie__container--item1{
+        width:50%
+    }
+
+    .pie__container--item2{
+        width:50%
+    }
+}
+
+@media screen and (min-width: 1440px){
+
+    .form textarea{
+        width: 100%;
+    }
+}
+

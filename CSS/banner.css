@@ -1,0 +1,59 @@
+.banner{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: url(/IMG/hero.jpeg) center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__content{
+    text-align: center;
+    color: #fdfdfd;
+    position: absolute;
+    width: 100%;
+}
+
+.banner__content h1{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 2px 2px;
+    top: 80%;
+    text-align: center;
+    transform: translate(-50%, -200%);
+    width: 100%;
+}
+
+.banner__content p{
+    font-size: 1.7rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 2px 2px;
+    top: 80%;
+    text-align: center;
+    transform: translate(-50%, 100%);
+    width: 100%;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    transform: translate(0%, 250%);
+}
+
+button{
+    border: none;
+    background: linear-gradient(to right, rgb(50, 51, 54), rgb(9, 9, 9));
+    color: #fff;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 400ms;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+

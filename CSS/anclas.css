@@ -1,0 +1,38 @@
+.anclas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anclas__nav{
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+}
+
+.anclas__nav--list{
+    text-align: center;
+    color: #ffffff;
+    margin: 3rem;
+    line-height: 1.5;
+}
+
+.anclas__nav--list a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.anclas__nav--list p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .anclas__nav{
+        flex-direction: row;
+    }
+    
+}
