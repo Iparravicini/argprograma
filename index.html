@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="/CSS/skills.css">
         <link rel="stylesheet" href="/CSS/languagues.css">
         <link rel="stylesheet" href="/CSS/footer.css">
-        <title>Mi Curriculum Vitae</title>
+        <title>Bug the code</title>
     </head>
     <body>
 
@@ -28,11 +28,11 @@
                 <ul class="menu__lista">
                     <li class="menu__item"><a href="#skills" class="menu__link
                             activo">Skills</a></li>
-                    <li class="menu__item"><a href="#experiencia"
+                    <li class="menu__item"><a href="#experience"
                             class="menu__link">Experiencia</a></li>
                     <li class="menu__item"><a href="#portfolio"
                             class="menu__link">Portfolio</a></li>
-                    <li class="menu__item"><a href="#contacto"
+                    <li class="menu__item"><a href="#contact"
                             class="menu__link">Contacto</a></li>
                 </ul>
             </nav>
@@ -44,7 +44,7 @@
                 <p>Ciudad: <span id="ciudad"></span></p>
             </div>
             <div class="boton">
-                <button id="boton">Buscar Programador</button>
+                <button id="boton">Search Dev</button>
             </div>
         </section>
 
@@ -65,13 +65,14 @@
             <div class="story">
                 <div class="story__content">
                     <div class="story__content--texto">
-                        <h1>Programo,<br> luego existo</h1>
-                        <p>Lorem, ipsum dolor sit
-                            amet consectetur adipisicing elit. Labore
-                            perferendis adipisci aliquid repudiandae provident
-                            fugit officia aspernatur doloribus eveniet
-                            voluptatum ducimus explicabo suscipit, iste iure
-                            corporis at mollitia magnam laboriosam?</p>
+                        <h1>Develop a idea</h1>
+                        <p>This is a website that has a very clear objective,
+                            that you find a developer to your measure. We
+                            connect you with a very wide universe of devs that
+                            can help you start or improve that project that you
+                            have in mind.
+                            We’re the website you need.
+                        </p>
                     </div>
                     <img class="story__img" src="" alt="foto de usuario""
                         id="foto">
@@ -89,7 +90,7 @@
                             fugit?</p>
                     </div>
                     <div class="anclas__nav--list">
-                        <a id="experiencia">Experiencia</a>
+                        <a id="experience">Experiencia</a>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing
                             elit. Odio laborum enim eaque. Ullam nobis dolores
                             consequuntur eligendi, excepturi sapiente alias,
@@ -156,12 +157,13 @@
                     <p>Correo: <span id="email"></span></p>
                 </div>
                 <div class="pie__container--item2">
-                    <form action="" class="form">
+                    <form action="" class="form" id="contact">
                         <input placeholder="Name*" type="text" required>
                         <input placeholder="Mail*" type="correo" required>
                         <input placeholder="Phone" type="telefono">
-                        <textarea placeholder="Type your message here.." type="mensaje"></textarea>
-                        <input type="button" value="Submit" id="boton__form">
+                        <textarea placeholder="Type your message here.."
+                            type="mensaje"></textarea>
+                        <input type="button" value="Submit" id="boton__form" onclick="enviado()">
                     </form>
                 </div>
             </div>

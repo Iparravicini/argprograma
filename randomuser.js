@@ -31,3 +31,7 @@ const generarUsuario = async () => {
 boton.addEventListener("click", generarUsuario);
 document.addEventListener('DOMContentLoaded', generarUsuario);
 
+function enviado(){
+  window.alert('Enviado');
+}
+
