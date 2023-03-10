@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     height: calc(100vh - 50px);
-    background: url(IMG/hero.jpeg) center / cover;
+    background: url(../IMG/hero.jpeg) center / cover;
     display: flex;
     justify-content: center;
     align-items: center;
